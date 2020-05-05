@@ -5,7 +5,7 @@
 
    <body>
       <h1> Welcome Everyone to the Gaming Dashboard...!!!</h1>
-      Which one will it be for you today?<br/>
+      <h3>Which one will it be for you today ? </h3> <br/>
       <a href="#" onclick="playRoshambo('rock')"> rock </a>
       <a href="#" onclick="playRoshambo('paper')"> paper </a>
       <a href="#" onclick="playRoshambo('scissors')"> scissors </a>
