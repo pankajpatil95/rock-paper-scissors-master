@@ -1,0 +1,9 @@
+---
+- hosts: webservers
+  become: true
+  become_user: ansadmin
+  tasks:
+    - name: copy war onto webserver
+      copy:
+        src: target/roshambo.war
+        dest: /opt/tomcat/webapps/
